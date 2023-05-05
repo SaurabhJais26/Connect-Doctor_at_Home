@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1034576066888",
+    "project_id": "connect-doctor-at-home",
+    "storage_bucket": "connect-doctor-at-home.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1034576066888:android:222cab3b8946b0262e9b7d",
+        "android_client_info": {
+          "package_name": "com.example.connect_doctor_at_home"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1034576066888-489b9fjgou4tgmpr4t1qdhtvi3up6ohe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfm792utafRdxOv0MVThhu8EGCfMKPESA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1034576066888-489b9fjgou4tgmpr4t1qdhtvi3up6ohe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
