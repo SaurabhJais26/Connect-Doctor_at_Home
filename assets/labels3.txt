@@ -1,0 +1,3 @@
+0 covid
+1 normal
+2 lung_opacity

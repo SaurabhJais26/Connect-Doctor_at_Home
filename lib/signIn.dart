@@ -1,3 +1,4 @@
+import 'package:connect_doctor_at_home/home.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
@@ -134,12 +135,8 @@ class _LoginPageState extends State<LoginPage> {
         User user = credential.user!;
 
         print('User ${user.uid} signed in');
-        // Navigator.push(
-        //     context,
-        //     MaterialPageRoute(
-        //         builder: (context) => Home(
-        //               user: user,
-        //             )));
+        Navigator.push(
+            context, MaterialPageRoute(builder: (context) => MyHomePage()));
       } on FirebaseAuthException catch (e) {
         if (e.code == 'weak-password') {
           print('The password provided is too weak.');

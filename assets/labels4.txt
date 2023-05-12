@@ -1,0 +1,2 @@
+0 Normalchest
+1 Pneumonia

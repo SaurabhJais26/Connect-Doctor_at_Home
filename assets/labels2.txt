@@ -1,0 +1,2 @@
+0 Skin_Disease
+1 Normal
